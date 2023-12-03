@@ -1,4 +1,4 @@
-package doan;
+// package doan;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileInputStream;
@@ -16,8 +16,8 @@ import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import file.Ifile;
-public class dssv<Oject> implements Ifile{
+
+public class dssv<Oject> implements file{
 	 public  int n;
     Scanner input = new Scanner(System.in);
     
